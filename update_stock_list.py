@@ -3,9 +3,6 @@ import pandas as pd
 from datetime import datetime
 import os
 
-os.environ["KRX_ID"] = "bwlee27"
-os.environ["KRX_PW"] = "Rodtod0!2&"
-
 today = datetime.today().strftime("%Y%m%d")
 
 dfs = []
